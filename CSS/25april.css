@@ -1,0 +1,66 @@
+a:link{
+    color: brown;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: brown;
+    background-color: gray;
+
+}
+a:visited{
+    background-color: aquamarine;
+}
+a:active{
+    background-color: blueviolet;
+}
+.container{
+    font-size: 25px;
+}
+.box p{
+    color: burlywood;
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: 700;
+    font-style: inherit;
+    text-decoration:dashed;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    line-height: 50px;
+    text-indent: 10px;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+}
+
+.container{
+    position: relative;
+    left: 100px;
+    top: 0px;
+    width: 600px;
+    height: 600px;
+    padding: 10px ;
+    border: 2px solid green;
+    margin-top: 30px;
+    
+}
+.box{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid brown;
+    
+}
+
