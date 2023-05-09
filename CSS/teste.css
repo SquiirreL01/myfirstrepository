@@ -1,0 +1,71 @@
+.box1{
+    float: inline-start;
+    padding: 40px;
+}
+
+.container{
+      display: inline;
+      text-decoration: none;
+      display: block;
+      color: aliceblue;
+      background-color: rgb(27, 27, 116);
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 30px;
+    text-decoration: none;
+    margin-top: center;
+    margin-left: 60%;
+   
+}
+.menu ul{
+    position: relative;
+    list-style: none;
+    color: aliceblue;
+    float: left;
+    text-decoration: none;
+}
+
+.menu li{
+    display: inline;
+    float: left;
+    padding: 0px;
+    margin: 0;
+    width: 80px;
+    text-decoration: none;
+   
+}
+
+
+section{
+    background-color: darkgrey;
+    height: 15px;
+    padding: 30%;
+}
+button{
+   
+    border: 0;
+    align-items: center;
+    width: auto;
+    height: 50px;;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+a{
+    color: aliceblue;
+    align-items: end;
+    text-decoration: none;
+    align-items: end;
+    font-size: larger;
+    margin-left: 15px;
+
+}
+
+.botoes{
+    position: relative;
+    align-items: center;
+}
