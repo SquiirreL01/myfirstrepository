@@ -21,8 +21,8 @@ body{
     align-items: center;
     border-radius: 10px;
     border: 1px solid aliceblue;
-    width: 440px;
-    height: 420px;
+    width: 400px;
+    height: 365px;
     padding: 35px;
     font-size: 20px;
 }
@@ -44,11 +44,11 @@ body{
     padding-left: 10px;
 }
 
-.login p{
-    color: aliceblue;
-    font-size: 30px;
-
+.login img{
+    width: 280px;
+    height: auto;
 }
+
 
 input::placeholder{
     color: black;
@@ -57,5 +57,5 @@ input::placeholder{
 
 form [type="submit"]{
     display:block;
-    background-color: rgb(255, 255, 255) ;
+    background-color: #0f387a ;
 }
