@@ -51,7 +51,9 @@ body{
     padding: 10px ;
     border: 2px solid green;
     margin-top: 30px;
-    
+    color:aliceblue;
+    background-color: deeppink;
+    text-align: center;
 }
 .box{
     position: absolute;
@@ -61,6 +63,8 @@ body{
     height: 400px;
     padding: 10px;
     border: 2px solid brown;
+    background-color: aqua;
+    color: inherit;
     
 }
 

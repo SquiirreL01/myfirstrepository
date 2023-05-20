@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1500px;
+    padding: 3%;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.banner{
+    padding-top: 10%;
+    position: absolute;
+    width: 100%;
+    height: 1400px;
+    margin: 30px;
+    box-sizing: 3000px;
+    text-align: center;
+    padding: 100px;
+    text-align: center;
+}    
+
+.button{
+    padding: 40px;
+    border: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+}
+
+.titulo{
+    font-size: 60px;
+    color: aliceblue;
+    font-family:'Open Sans', sans-serif;
+}
+
+.subtitulo{
+    font-size: 60px;
+    color: aliceblue;
+    font-family:'Open Sans', sans-serif;
+}
+
+button:hover{
+    font-size: 15px;
+
+}
+
+#overlay{
+    background-color:  rgb(255, 255, 255) ;
+    color: #000000;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 15px;
+   
+}
+#n-overlay{
+    background-color:gray;
+    color:  rgb(255, 255, 255);
+    border: 1px Solid  rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+}
+
+#n-overlay a:hover{
+    color: aliceblue;
+}
+
+.botao{
+    padding: 15px
+}
